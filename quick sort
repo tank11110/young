@@ -1,0 +1,26 @@
+bubble sort：從第一個數字逐一往後比對(速度較慢)
+程式構想：for i in range len(list)-1  #需要比對數字的次數，次數為len(list)-1
+            for j in range len(list)-1-i  #選取的數字與剩下的數字比對次數，次數為-1-i
+                if list[j]>list[j+1] #比對大小
+                    num=list[j] #使用變數num儲存比較大的數字
+                    list[j]=list[j+1] #把數字小的交換
+                    list[j+1]=num #呼叫num把比較大的數字並填入
+             最後把排列好的數字print/return就好
+
+
+
+quick sort：隨機選取1個數字做為對照組，比它小的分一邊，比它大的分另一邊。然後然後一路這樣比對到排列完成
+程式構想：small=[] num=[] big=[] #設定3個空陣列來儲存數字
+         if len(list)<=1
+            return(list) #如果list的數值只有一個直接return就好
+         else:
+             num=lise[0]  #指定對照組為list中第一個值(方便)
+             for i in len(list) #掃過list中的每個值
+                if i<num  #如果i比對照組小則加進small的陣列
+                   small.append(i)
+                if i==num #如果i等於對照組則加進num的陣列
+                   num.append(i)
+                if i>num #如果i大於num則加進big的陣列
+                   big.append(i)
+          重複執行直到small,big的陣列排序完成
+          最後print/return (small+num+big)
