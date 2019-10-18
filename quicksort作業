@@ -13,4 +13,9 @@ def quicksort(num):
         elif i < pivot:
                small.append(i)
     return quicksort(small)+same+quicksort(big) #回傳分類好的值
+    
+    
+測試執行結果：
+![image](https://github.com/tank11110/young/blob/master/1571358119254.jpg)
+   
                     
