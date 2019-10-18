@@ -13,4 +13,3 @@ def quicksort(num):
         elif i < pivot:
                small.append(i)
     return quicksort(small)+same+quicksort(big) #回傳分類好的值
-                    
