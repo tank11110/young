@@ -20,4 +20,3 @@
        newlist.append(L(0))
        L[i]+=1
 
-程式碼：
