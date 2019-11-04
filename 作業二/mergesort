@@ -19,3 +19,5 @@
     if R[0]>L[0]
        newlist.append(L(0))
        L[i]+=1
+
+程式碼：
