@@ -21,5 +21,6 @@
        L[i]+=1
 
 實作：
+
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573043960901.jpg" height='400' weight='250'>
 發現問題：print的結果跟預想中的不一樣，3被吃掉了且後面的數字沒有排列
