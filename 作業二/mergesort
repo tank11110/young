@@ -19,3 +19,7 @@
     if R[0]>L[0]
        newlist.append(L(0))
        L[i]+=1
+
+實作：
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573043960901.jpg" height='700' weight='550'>
+發現問題：print的結果跟預想中的不一樣，3被吃掉了且後面的數字沒有排列
