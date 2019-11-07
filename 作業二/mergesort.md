@@ -50,30 +50,30 @@
 
 文字版：
 
-def merge(lista):
-    if len(lista)<=1:   #如果list只有1就直接回傳
-        return lista
-    else:
-        mid = len(lista)//2  #先把找出list的中間點，然後開始遞迴對半分到list長度=1表示可以開始merge了
-        L=lista[:mid]
-        R=lista[mid:]
-        merge(L)
-        merge(R)
-        i=0     #這邊先設i,j 2個變數用來分別記錄等等merge時箭頭(count)的位置
-        j=0
-        q=0     #q則是用來記錄放入數值時箭頭(count)的位置
-        while i<len(L) and j<len(R):  #當2者的箭頭都沒指到最後一個位置時
-            if L[i]>=R[j]:   #如果L第i個位置大於等於R的第j個位置時(第一次i,j為0)
-                lista[q]=R[j]  #就把R的第j個值放進list的第q(第一次為0)個位置
-                j+=1  #R[j]的箭頭(count)移動至下一個位置(前一個位置用過了)    
-            else:
-                lista[q]=L[i]  #如果不是上面的狀況則lista的第q個位置放L的第i的值
-                i+=1  #L[j]的箭頭(count)移動至下一個位置(前一個位置用過了)
-            q+=1  #list[q]的箭頭(count)移動至下一個位置(前一個位置已填入數字)
-        for ci in range(i,len(L)):   #當R陣列的數字先被填完，就把i之後的L陣列的數字(in range(i,len(L))的原因)依序填入
-            lista[q]=L[ci]
-            q+=1
-        for cj in range(j,len(R)):   #當L陣列的數字先被填完，就把j之後的R陣列的數字(in range(j,len(R))的原因)依序填入
-            lista[q]=R[cj]
-            q+=1
-    return lista  #回傳完成merge的lista
+    def merge(lista):
+        if len(lista)<=1:   #如果list只有1就直接回傳
+            return lista
+        else:
+            mid = len(lista)//2  #先把找出list的中間點，然後開始遞迴對半分到list長度=1表示可以開始merge了
+            L=lista[:mid]
+            R=lista[mid:]
+            merge(L)
+            merge(R)
+            i=0     #這邊先設i,j 2個變數用來分別記錄等等merge時箭頭(count)的位置
+            j=0
+            q=0     #q則是用來記錄放入數值時箭頭(count)的位置
+            while i<len(L) and j<len(R):  #當2者的箭頭都沒指到最後一個位置時
+                if L[i]>=R[j]:   #如果L第i個位置大於等於R的第j個位置時(第一次i,j為0)
+                    lista[q]=R[j]  #就把R的第j個值放進list的第q(第一次為0)個位置
+                    j+=1  #R[j]的箭頭(count)移動至下一個位置(前一個位置用過了)    
+                else:
+                    lista[q]=L[i]  #如果不是上面的狀況則lista的第q個位置放L的第i的值
+                    i+=1  #L[j]的箭頭(count)移動至下一個位置(前一個位置用過了)
+                q+=1  #list[q]的箭頭(count)移動至下一個位置(前一個位置已填入數字)
+            for ci in range(i,len(L)):   #當R陣列的數字先被填完，就把i之後的L陣列的數字(in range(i,len(L))的原因)依序填入
+                lista[q]=L[ci]
+                q+=1
+            for cj in range(j,len(R)):   #當L陣列的數字先被填完，就把j之後的R陣列的數字(in range(j,len(R))的原因)依序填入
+                lista[q]=R[cj]
+                q+=1
+        return lista  #回傳完成merge的lista
