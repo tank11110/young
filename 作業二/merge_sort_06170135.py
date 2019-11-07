@@ -1,11 +1,11 @@
 class Solution():
-    def merge_sort(self,lista):
-        if len(lista) <= 1:  #如果lista只有1個數值 直接return
-            return lista
+    def merge_sort(self,nums):
+        if len(nums) <= 1:  #如果nums只有1個數值 直接return
+            return nums
         else:  #先找出list的中間點，然後開始對半分(遞迴執行)直到len(L)(R)長度=1
-            mid = len(lista) // 2  
-            L = self.merge_sort(lista[:mid])
-            R = self.merge_sort(lista[mid:])
+            mid = len(nums) // 2  
+            L = self.merge_sort(nums[:mid])
+            R = self.merge_sort(nums[mid:])
         return self.merge(L,R)  #分完了之後丟進merge來搓合，並回傳
     
     def merge(self, L, R):  #merge的主程式
