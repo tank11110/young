@@ -43,6 +43,7 @@
 新增了這個程式碼後可以看見數列被正常排列了，代表完成了
 
 
+
 *完整程式碼+詳解
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573045115406.jpg" height='600' weight='450'>
