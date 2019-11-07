@@ -1,0 +1,3 @@
+mergesort跟heapsort  在3種情況下的複雜度都是n logn
+
+最主要的差別是在數列的排列方法
