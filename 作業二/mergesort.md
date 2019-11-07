@@ -31,3 +31,17 @@
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573043960901.jpg" height='400' weight='250'>
 發現問題：print的結果跟預想中的不一樣，3被吃掉了且後面的數字沒有排列
+
+模擬程式碼找出原因：
+
+    以測資為例最後分解至[3],[1]開始merge，因[1]比[3]小所以應該要變成[1,3]
+    但結果卻顯示[1,1]。接著回推程式碼，發現當R陣列跑完時L陣列還有數值，且沒有輸入剩餘的值
+    解決方法：當有一陣列空了的時候，利用迴圈把另一個陣列的值依序填入
+    
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573045037942.jpg" height='400' weight='250'>    
+
+新增了這個程式碼後可以看見數列被正常排列了，代表完成了
+
+*完整程式碼+詳解
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573045115406.jpg" height='400' weight='250'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573045067976.jpg" height='400' weight='250'>
