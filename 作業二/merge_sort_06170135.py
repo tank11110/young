@@ -4,10 +4,9 @@ class Solution():
             return lista
         else:
             mid = len(lista) // 2
-            L = lista[:mid]
-            R = lista[mid:]
-            return L
-            return R
+            L = self.merge_sort(lista[:mid])
+            R = self.merge_sort(lista[mid:])
+            return self.merge(L,R)
 
     def merge(self, L, R):
         anslist = []
