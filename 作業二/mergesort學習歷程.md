@@ -78,3 +78,5 @@
                 lista[q]=R[cj]
                 q+=1
         return lista  #回傳完成merge的lista
+        
+* 發現老師要求的格式與現行不符，更改格式
