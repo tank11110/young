@@ -13,7 +13,7 @@ class Solution():
             self.maxheap(nums,maxnum)  #調整新的heap成maxheap
         
     def heap_sort(self,nums):  #sort的主程式
-        anslist=[]  #先設定空的陣列用來儲存maxheap出來的maxnum的值
+        anslist=[]  #設定空的陣列用來儲存maxnum的值
         n=len(nums) #設n為List的長度
         for i in range(n-1,-1,-1):  #調整heap(雖然用n-1，但真正開始跑的時候是i=n//2-1)
             self.maxheap(nums,i)
