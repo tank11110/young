@@ -87,4 +87,9 @@
 	
     if max!=i: 
 		list[i],list[max]=list[max],list[i]
+		
+
+實作：
+
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573216122648.jpg" height='500' weight='350'>
 
