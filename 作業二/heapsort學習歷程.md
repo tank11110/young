@@ -101,9 +101,35 @@
 發現問題：2.排列的數字有誤
 	
 		推測呼叫maxheap的參數有誤
-		修改：
+		修改：最後呼叫自己不是(nums,i)，i應該要改成0(maxheap中i為0開始)
 
 修改過後：
 
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573216122648.jpg" height='500' weight='350'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573219854283.jpg" height='500' weight='350'>
+
+發現問題：由於我是做maxheap所以陣列是從大排列至小
+
+		修改：想辦法讓陣列到著印
+		
+由於不知道python要用什麼語法反轉陣列，於是查詢
+
+		參考網站：http://yehnan.blogspot.com/2015/04/python.html
+		
+網站上是測試字串，理論上數列應該也行，但未知所以進行測試
+		
+測試：
+
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573220149884.jpg" height='400' weight='250'>
+
+發現可行，於是放入程式碼
+
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573220227184.jpg" height='500' weight='350'>
+
+結果：
+
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573220241523.jpg" height='400' weight='250'>
+
+成功
+
+
 		
