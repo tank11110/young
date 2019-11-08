@@ -8,9 +8,9 @@ class Solution():
             maxnum=L  #是的話則把maxnum的值換成當前L的值
         if R<n and nums[R]>nums[maxnum]:   #判斷右邊的子數是否存在，並是否大於maxnum的值
             maxnum=R  #是的話則把maxnum的值換成當前R的值
-        if maxnum!=i:  #如果maxnum不等於原本的值
-            nums[i],nums[maxnum]=nums[maxnum],nums[i]  #則交換(把最大的跟小的進行交換)
-            self.maxheap(nums,maxnum)  #調整heap成maxheap
+        if maxnum!=i:  #如果不是3者中的最大
+            nums[i],nums[maxnum]=nums[maxnum],nums[i]  #則交換3者中最大的值
+            self.maxheap(nums,maxnum)  #調整新的heap成maxheap
         
     def heap_sort(self,nums):  #sort的主程式
         anslist=[]  #先設定空的陣列用來儲存maxheap出來的maxnum的值
