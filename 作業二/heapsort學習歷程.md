@@ -93,3 +93,17 @@
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573216122648.jpg" height='500' weight='350'>
 
+發現問題：1.print出來的應該要有7個數字，但我只印出6個
+
+		推測append數字的for迴圈出了問題，少讀取1次
+		修改：for迴圈起始改成n-1會超出範圍，因此修改結束成-1
+
+發現問題：2.排列的數字有誤
+	
+		推測呼叫maxheap的參數有誤
+		修改：
+
+修改過後：
+
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573216122648.jpg" height='500' weight='350'>
+		
