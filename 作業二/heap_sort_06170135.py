@@ -12,7 +12,7 @@ class Solution():
             nums[i],nums[maxnum]=nums[maxnum],nums[i]  #則交換(把最大的跟小的進行交換)
             self.maxheap(nums,maxnum)  #重新把heap變成maxheap
         
-    def heap_sort(self,nums):  #真正執行sort的程式 
+    def heap_sort(self,nums):  #sort的主程式
         anslist=[]  #先設定空的陣列用來儲存maxheap出來的maxnum的值
         n=len(nums) #設n為List的長度
         for i in range(n,-1,-1):  #進行建造maxheap的過程
