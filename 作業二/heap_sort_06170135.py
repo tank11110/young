@@ -3,7 +3,7 @@ class Solution():
         n=len(nums)  #設n為list的長度
         L=2*i+1  #取得左邊child
         R=2*i+2  #取得右邊child
-        maxnum=i  #先設定最大值為第一個值
+        maxnum=i  #先設定最大值為root
         if L<n and nums[L]>nums[i]:  #判斷左邊的子數是否存在，並是否大於第一個值
             maxnum=L  #是的話則把maxnum的值換成當前L的值
         if R<n and nums[R]>nums[maxnum]:   #判斷右邊的子數是否存在，並是否大於maxnum的值
