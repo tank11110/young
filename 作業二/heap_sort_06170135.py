@@ -17,7 +17,7 @@ class Solution():
         n=len(nums) #設n為List的長度
         for i in range(n,-1,-1):  #調整heap
             self.maxheap(nums,i)
-        for i in range(n-1,-1,-1):  #重複進行
+        for i in range(n-1,-1,-1):
             nums[i],nums[0]=nums[0],nums[i]   #把最大最小的位置互換
             anslist.append(nums.pop())  #把最大的數字丟進anslist，並用pop出迴圈
             self.maxheap(nums,0)  #調整heap
