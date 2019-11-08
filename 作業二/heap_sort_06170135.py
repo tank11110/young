@@ -15,7 +15,7 @@ class Solution():
     def heap_sort(self,nums):  #sort的主程式
         anslist=[]  #先設定空的陣列用來儲存maxheap出來的maxnum的值
         n=len(nums) #設n為List的長度
-        for i in range(n,-1,-1):  #進行建造maxheap的過程
+        for i in range(n,-1,-1):  #調整heap
             self.maxheap(nums,i)
         for i in range(n-1,-1,-1):  #重複進行
             nums[i],nums[0]=nums[0],nums[i]   #把最大最小的位置互換
