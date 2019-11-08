@@ -94,26 +94,26 @@
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573221784265.jpg" height='500' weight='350'>
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573221795456.jpg" height='300' weight='150'>
 
-發現問題：1.print出來的應該要有7個數字，但我只印出6個
-
-		推測append數字的for迴圈出了問題，少讀取1次
-		修改：for迴圈起始改成n-1會超出範圍，因此修改結束成-1
-
-發現問題：2.排列的數字有誤
+發現問題：1.排列的數字有誤
 	
 		推測呼叫maxheap的參數有誤
 		修改：最後呼叫自己不是(nums,i)，i應該要改成0(maxheap中i為0開始)
 
-發現問題：3.印出的數字重複6次
+發現問題：2.印出的數列重複6次
 
 		推測append進去的動作也進到for迴圈內重複了(因為印出來的數字跟次數都少1)
 		修改：看看加入.pop()進去彈出迴圈
 
 修改過後：
 
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573219854283.jpg" height='500' weight='350'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573223206030.jpg" height='500' weight='350'>
 
-發現問題：由於我是做maxheap所以陣列是從大排列至小
+發現問題：1.print出來的應該要有7個數字，但我只印出6個
+
+		推測append數字的for迴圈出了問題，少讀取1次
+		修改：for迴圈起始改成n-1會超出範圍，因此修改結束成-1
+
+發現問題：2.由於我是做maxheap所以陣列是從大排列至小
 
 		修改：想辦法讓陣列到著印
 		
