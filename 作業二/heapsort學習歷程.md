@@ -125,7 +125,7 @@
 		
 測試：
 
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573220149884.jpg" height='400' weight='250'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573220149884.jpg" height='200' weight='150'>
 
 發現可行，於是放入程式碼
 
@@ -133,7 +133,7 @@
 
 結果：
 
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573220241523.jpg" height='300' weight='150'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573220241523.jpg" height='200' weight='150'>
 
 成功
 
