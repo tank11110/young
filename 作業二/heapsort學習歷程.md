@@ -106,7 +106,7 @@
 
 修改過後：
 
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573223206030.jpg" height='500' weight='350'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573223420530.jpg" height='500' weight='350'>
 
 發現問題：1.print出來的應該要有7個數字，但我只印出6個
 
