@@ -91,7 +91,8 @@
 
 實作：
 
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573216122648.jpg" height='500' weight='350'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573221784265.jpg" height='500' weight='350'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573221795456.jpg" height='300' weight='150'>
 
 發現問題：1.print出來的應該要有7個數字，但我只印出6個
 
@@ -102,6 +103,11 @@
 	
 		推測呼叫maxheap的參數有誤
 		修改：最後呼叫自己不是(nums,i)，i應該要改成0(maxheap中i為0開始)
+
+發現問題：3.印出的數字重複6次
+
+		推測append進去的動作也進到for迴圈內重複了(因為印出來的數字跟次數都少1)
+		修改：看看加入.pop()進去彈出迴圈
 
 修改過後：
 
@@ -127,7 +133,7 @@
 
 結果：
 
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573220241523.jpg" height='400' weight='250'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1573220241523.jpg" height='300' weight='150'>
 
 成功
 
