@@ -10,16 +10,16 @@ class Solution():
             maxnum=R  #是的話則把maxnum的值換成當前R的值
         if maxnum!=i:  #如果maxnum不等於原本的值
             nums[i],nums[maxnum]=nums[maxnum],nums[i]  #則交換(把最大的跟小的進行交換)
-            self.maxheap(nums,maxnum)  #重新把heap變成maxheap
+            self.maxheap(nums,maxnum)  #調整heap成maxheap
         
     def heap_sort(self,nums):  #sort的主程式
         anslist=[]  #先設定空的陣列用來儲存maxheap出來的maxnum的值
         n=len(nums) #設n為List的長度
         for i in range(n,-1,-1):  #進行建造maxheap的過程
             self.maxheap(nums,i)
-        for i in range(n-1,-1,-1):  #建造好了就一個一個選出最大的數字，選好的同時縮小範圍(忽略已經排好的max值)
-            nums[i],nums[0]=nums[0],nums[i]   #根據上課影片把最大最小的位置互換
-            anslist.append(nums.pop())  #把最大的數字丟進anslist，並用pop彈出迴圈
-            self.maxheap(nums,0)  #排好了之後重新建造maxheap
+        for i in range(n-1,-1,-1):  #重複進行
+            nums[i],nums[0]=nums[0],nums[i]   #把最大最小的位置互換
+            anslist.append(nums.pop())  #把最大的數字丟進anslist，並用pop出迴圈
+            self.maxheap(nums,0)  #調整heap
         anslist.reverse()  #把排列完成的anlist倒著印
         return anslist  #把最後的結果回傳
