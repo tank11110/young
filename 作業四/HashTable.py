@@ -1,6 +1,5 @@
 # 雖然有架設linklist連結點設置，但我認為MD5加密過後的值為唯一，因此後面程式碼的data[hashkey]的值沒有設置linklist連接
 
-# 2019/12/6程式未完成
 
 class  ListNode:  
     def __init__(self,val):
