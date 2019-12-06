@@ -2,7 +2,7 @@
 
 # 2019/12/6程式未完成
 
-class  ListNode:  #連結點的設置
+class  ListNode:  
     def __init__(self,val):
         self.val=val
         self.next=None
@@ -40,4 +40,4 @@ class MyHashSet:
         hashkey=self.hashf(key)
         for i in range(0,5):
             if self.data[i]==hashkey:
-                self.data[i].pop()
+                self.data[i]=None
