@@ -2,7 +2,24 @@
 
 程式構想：因為BFS的走訪像是依序走訪  ex.從A開始，發現A能走B,C，走訪B,C，發現B能走E,F...依序走訪下去
          
-所以先1.做出一個list紀錄走訪過程  
+所以先1.做出一個list紀錄走訪過程
       2.做出一個list儲存是否走訪過
       3.呼叫graph
+     
+程式構想如下:
+
+    def BFS(graph,start):
+    lista=[]
+    lista.append(start)
+    visit=[]
+    visit.append(start)
+    while lista:
+        a=lista.pop(0)
+        for i in graph[a]:
+            if i not in visit:
+                visit.append(i)
+                lista.append(i)
+    return visit
+    
+發現可行
 
