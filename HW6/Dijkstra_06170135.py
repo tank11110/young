@@ -6,8 +6,6 @@ class Graph():
         self.graph_matrix = [[0 for column in range(vertices)]  
                     for row in range(vertices)]
         self.dict = defaultdict(list)
-    def addEdge(self,u,v,w): 
-        self.dict[w].append([u,v])
     def Dijkstra(self,s):
         dist = [float('inf')] * self.V
         visite=[]
