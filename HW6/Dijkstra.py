@@ -22,7 +22,8 @@ class Graph():
         for i in nodes:
             distance[i]=self.graph[s][i]
         path={s:{s:[]}}
-        k=pre=s
+        nex=s
+        pre=s
         while nodes:
             minnum=float('inf')
             for j in visite:
@@ -31,11 +32,11 @@ class Graph():
                     if newnum<minnum:
                         minnum=newnum
                         self.graph[s][q]=newnum
-                        k=q
+                        nex=q
                         pre=j
-            distance[k]=minnum
-            path[s][k]=[i for i in path[s][pre]]
-            path[s][k].append(k)
-            visite.append(k)
-            nodes.remove(k)
+            distance[nex]=minnum
+            path[s][nex]=[i for i in path[s][pre]]
+            path[s][nex].append(nex)
+            visite.append(nex)
+            nodes.remove(nex)
         return distance
