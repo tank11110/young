@@ -5,7 +5,11 @@ class Graph():
         self.graph = []
         self.graph_matrix = [[0 for column in range(vertices)]  
                     for row in range(vertices)]
+        self.dict = defaultdict(list)
+    def addEdge(self,u,v,w): 
+        self.dict[w].append([u,v])
     def Dijkstra(self,s):
+        dist = [float('inf')] * self.V
         visite=[]
         maxnum=float('inf')
         for i in range(len(self.graph)):
@@ -16,6 +20,7 @@ class Graph():
         if s in nodes:
             visite.append(s)
             nodes.remove(s)
+        ans={}
         distance={s:0}
         for i in nodes:
             distance[i]=self.graph[s][i]
@@ -33,8 +38,11 @@ class Graph():
                         nex=q
                         pre=j
             distance[nex]=minnum
+            dist[nex]=minnum
             path[s][nex]=[i for i in path[s][pre]]
             path[s][nex].append(nex)
             visite.append(nex)
             nodes.remove(nex)
-        return distance
+        for i in range(self.V):
+            ans[str(i)] = distance[i]
+        return ans
