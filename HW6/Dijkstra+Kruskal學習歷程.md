@@ -1,4 +1,5 @@
 Dijkstra+Kruskal 流程圖：
+
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/S__67321859.jpg" height='500' weight='350'>
 
 Dijkstra程式構想：
@@ -20,11 +21,14 @@ Dijkstra程式構想：
           graph[start][next]=newdistance
           
 實作：
+
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1578059568248.jpg" height='500' weight='350'>
 結果：
+
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1578059590523.jpg" height='300' weight='200'>
 
 尋找問題所在：懷疑newnum是否沒讀入，因此print(newnum)看看，順便看minnum初始值如何
+
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1578059673656.jpg" height='200' weight='150'>
 
 發現有0的距離，回頭看到測資很陰險的把沒有到的點的距離設置成0
@@ -42,8 +46,10 @@ Dijkstra程式構想：
         也不用擔心如果2點有距離為0的話會不會出問題，因為這樣應該會變成同1個點
         
  修改後的結果：
+ 
  <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1578060613079.jpg" height='500' weight='350'>
  執行結果：
+ 
  <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1578060674414.jpg" height='300' weight='250'>
 
 參考資料：https://www.itread01.com/content/1545306259.html
