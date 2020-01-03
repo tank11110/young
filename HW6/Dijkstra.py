@@ -16,8 +16,6 @@ class Graph():
         if s in nodes:
             visite.append(s)
             nodes.remove(s)
-        else:
-            return None
         distance={s:0}
         for i in nodes:
             distance[i]=self.graph[s][i]
