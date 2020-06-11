@@ -29,3 +29,7 @@ quick sort：隨機選取1個數字做為對照組，比它小的分一邊，比
                 if i>num #如果i大於num則加進big的陣列
                    big.append(i)
           重複遞迴直到small,big的陣列數字只有1個(排列完成)
+
+實作：
+
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/quicksort.jpg" height='500' weight='350'>
