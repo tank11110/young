@@ -11,7 +11,7 @@
      
      以res.status_code判斷，如為200則成功
      
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1591855162774.jpg" height='300' weight='150'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1591855162774.jpg" height='200' weight='150'>
 
 
      
