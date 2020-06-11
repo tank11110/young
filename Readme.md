@@ -2,7 +2,7 @@
 
 整理學校老師所教和自己額外實作
 
-使用語言：pytho3
+使用語言：python3
 
 使用系統：Anaconda Navigator
 
