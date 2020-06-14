@@ -1,1 +1,5 @@
+學習歷程是以quicksort_06170135為主軸寫的
 
+quicksort_06170135的題目是：
+
+給定一串隨機的陣列，使用quicksort的方式進行排列，並print
