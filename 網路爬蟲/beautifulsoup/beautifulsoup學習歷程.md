@@ -19,7 +19,7 @@
 
 發現爬下來的資料是亂碼，檢查網站編碼
 
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1592141199411.jpg" height='100' weight='50'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1592141199411.jpg" height='130' weight='70'>
 
 發現該網站並不是用utf-8編碼
 beautifulsoup內建的編碼是使用utf-8，所以出現亂碼是正常的。
