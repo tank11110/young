@@ -36,7 +36,7 @@ beautifulsoup內建的編碼是使用utf-8，所以出現亂碼是正常的。
 
 結果：
 
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1592141446811.jpg" height='300' weight='200'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1592141446811.jpg" height='500' weight='350'>
 
 爬取結束
 
