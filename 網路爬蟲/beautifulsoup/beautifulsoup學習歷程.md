@@ -13,7 +13,15 @@
      
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1591855162774.jpg" height='130' weight='70'>
 
-預設的
+接著開始網站爬取
+
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1592141155593.jpg" height='300' weight='200'>
+
+發現爬下來的資料是亂碼，檢查網站編碼
+
+
+
+
 
 
      
