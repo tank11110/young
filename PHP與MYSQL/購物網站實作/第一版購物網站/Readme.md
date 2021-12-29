@@ -27,6 +27,11 @@
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/sprintf_sublime.jpg" height='400' weight='600'>
 
 
+二. 使用者登入
+
+     使用者登入的資訊跟資料庫比對，帳號密碼正確則跳轉到商店頁面
+
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_login.jpg" height='400' weight='600'>
 
     
     
