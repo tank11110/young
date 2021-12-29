@@ -49,9 +49,14 @@
 
 商店程式碼：
 
-     先規劃好商品所需的欄位
+     先規劃好商品所需的欄位並讀取session存取的使用者名稱
      
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_1.jpg" height='400' weight='600'>
+
+     讀取資料庫(goods)並將table開啟，然後讀取資料庫的資料放到table內
+     購買則是用herf的方式傳送使用者購買的的商品資料
+     
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_2.jpg" height='400' weight='600'>
 
    
     
