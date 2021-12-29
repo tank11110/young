@@ -4,5 +4,9 @@
 
 使用語言：python3
 
-使用系統：Anaconda Navigator
+使用軟體：Anaconda Navigator
+
+使用語言：PHP/MySQL
+
+使用軟體：XAMPP
 
