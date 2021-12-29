@@ -10,7 +10,7 @@
 
 一. 使用者註冊：
 
-    使用者註冊的資料傳送至資料庫中儲存
+    使用者註冊的資料傳送至資料庫(user)中儲存
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/acount.jpg" height='400' weight='600'>
 
@@ -29,7 +29,8 @@
 
 二. 使用者登入
 
-     使用者登入的資訊跟資料庫比對，帳號密碼正確則跳轉到商店頁面
+     使用者登入的資訊跟資料庫(user)比對，帳號密碼正確則跳轉到商店頁面
+     開啟session來記錄登入的使用者名稱
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_login.jpg" height='400' weight='600'>
 
@@ -39,6 +40,13 @@
      
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/check_login_sublime.jpg" height='400' weight='600'>
 
+三. 商店頁面
+
+     商店的資料都是從資料庫中(goods)抓取，後面的操作(購買)則是將商品加入購物車
+     透過session讀取進行操作的使用者名稱
+     
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop.jpg" height='400' weight='600'>
+   
     
     
     
