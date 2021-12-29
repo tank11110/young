@@ -42,10 +42,17 @@
 
 三. 商店頁面
 
-     商店的資料都是從資料庫中(goods)抓取，後面的操作(購買)則是將商品加入購物車
-     透過session讀取進行操作的使用者名稱
+     商店的商品是用表格的table方式呈現，資料都是從資料庫中(goods)抓取，後面的操作(購買)則是將商品加入購物車
+     透過session讀取進行操作的使用者名稱，並顯示當前的使用者
      
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop.jpg" height='400' weight='600'>
+
+商店程式碼：
+
+     先規劃好商品所需的欄位
+     
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_1.jpg" height='400' weight='600'>
+
    
     
     
