@@ -54,7 +54,7 @@
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_1.jpg" height='400' weight='600'>
 
      讀取資料庫(goods)並將table開啟，然後讀取資料庫的資料放到table內
-     購買則是用herf的方式傳送使用者購買的的商品資料
+     購買則是用herf的方式傳送使用者購買的的商品資料到shop_cart.php
      
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_2.jpg" height='300' weight='800'>
 
