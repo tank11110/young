@@ -22,7 +22,7 @@
    
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/acount_sublime.jpg" height='300' weight='400'>
 
-   接著透過 sprintf.php 用sprintf的方式將帳號密碼傳送至資料庫指定的欄位中
+    接著透過 sprintf.php 用sprintf的方式將帳號密碼傳送至資料庫指定的欄位中
    
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/sprintf_sublime.jpg" height='400' weight='600'>
 
