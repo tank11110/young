@@ -33,6 +33,12 @@
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_login.jpg" height='400' weight='600'>
 
+登入程式碼：
+
+     由check_login檢查使用者輸入的帳號跟密碼是否一樣。一樣則代表登入成功跳轉至商品頁面，反之回到登入頁面
+     
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/check_login_sublime.jpg" height='400' weight='600'>
+
     
     
     
