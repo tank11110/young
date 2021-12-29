@@ -65,6 +65,10 @@
     
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/cart_db.jpg" height='400' weight='700'>
    
-    
+shop_cart程式碼：
+
+     提取剛剛shop的GET資料，並用sprintf傳至資料庫(shop_cart)
+     
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_cart_sublime.jpg" height='400' weight='700'>    
     
     
