@@ -71,4 +71,8 @@ shop_cart程式碼：
      
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_cart_sublime.jpg" height='400' weight='700'>    
     
-    
+四. 購物車
+
+     和購物車用一樣的方式顯示，並從資料庫(shop_cart)讀取資料
+   
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_cart.jpg" height='400' weight='700'>
