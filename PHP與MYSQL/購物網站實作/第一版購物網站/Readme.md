@@ -14,7 +14,7 @@
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/acount.jpg" height='400' weight='600'>
 
-註冊程式碼：
+註冊程式碼(adding.php+sprintf.php)：
 
     先使用adding.php讓使用者輸入資料
    
@@ -34,7 +34,7 @@
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_login.jpg" height='400' weight='600'>
 
-登入程式碼：
+登入程式碼(login.php+check_login.php)：
 
      由check_login檢查使用者輸入的帳號跟密碼是否一樣。一樣則代表登入成功跳轉至商品頁面，反之回到登入頁面
      
@@ -47,7 +47,7 @@
      
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop.jpg" height='400' weight='600'>
 
-商店程式碼：
+商店程式碼(shop.php)：
 
      先規劃好商品所需的欄位並讀取session存取的使用者名稱
      
@@ -65,7 +65,7 @@
     
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/cart_db.jpg" height='400' weight='700'>
    
-shop_cart程式碼：
+前置作業程式碼(shop_cart.php)：
 
      提取剛剛shop的GET資料，並用sprintf傳至資料庫(shop_cart)
      
@@ -74,5 +74,28 @@ shop_cart程式碼：
 四. 購物車
 
      和購物車用一樣的方式顯示，並從資料庫(shop_cart)讀取資料
+     後面的操作更改為(刪除)，功能則是將商品從購物車移除
    
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/shop_cart.jpg" height='400' weight='700'>
+
+購物車程式碼(buy.php+del.php+finish.php)：
+
+     和商店一樣先規劃好商品所需的欄位並讀取session存取的使用者名稱
+     
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/buy_sublime.jpg" height='400' weight='700'>
+
+     連接到資料庫讀取購買商品的資訊
+     
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/buy2_sublime.jpg" height='400' weight='700'>
+
+     刪除：連接刪除功能(del.php)，透過herf傳送要刪除的商品ID資訊，讓資料庫知道要刪除哪件商品
+     
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/del.jpg" height='400' weight='700'>
+
+    結算：等使用者確認購買的商品之後，將shop_cart資料庫的資料複製到order資料庫
+    
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/finish.jpg" height='400' weight='700'>
+
+購買流程結束
+     
+
