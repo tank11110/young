@@ -8,5 +8,5 @@
 
 使用語言：PHP/MySQL
 
-使用軟體：XAMPP
+使用軟體：XAMPP(Apache+SQL)/sublime
 
