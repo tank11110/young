@@ -86,15 +86,15 @@
 
      連接到資料庫讀取購買商品的資訊
      
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/buy2_sublime.jpg" height='300' weight='500'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/buy2_sublime.jpg" height='200' weight='400'>
 
      刪除：連接刪除功能(del.php)，透過herf傳送要刪除的商品ID資訊，讓資料庫知道要刪除哪件商品
      
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/del.jpg" height='300' weight='500'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/del.jpg" height='200' weight='400'>
 
     結算：等使用者確認購買的商品之後，將shop_cart資料庫的資料複製到order資料庫
     
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/finish.jpg" height='300' weight='500'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/finish.jpg" height='200' weight='400'>
 
 購買流程結束
      
