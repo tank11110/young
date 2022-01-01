@@ -43,5 +43,11 @@
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/pwd_correct.jpg" height='400' weight='1100'>
 
 
-二.購物車(buy)
+二.檢查購物車(buy.php)的問題
+
+     1.沒有限定讀取購物車的的資料，導致所有購物車的資料都會讀取進來
+     2.沒有刪除購買完成的商品資訊，導致日後會造成重複讀取資料的問題
+     
+
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/buy_error.jpg" height='400' weight='1100'>
       
