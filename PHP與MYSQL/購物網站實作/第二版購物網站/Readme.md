@@ -30,7 +30,7 @@
       2.因密碼設定為"數字"因此判斷式if的$user_password = $row應該要用==來判斷是否相等
       3.因為if先判斷的是$user_password導致不管怎麼輸入都會是正確的，應該改為$row更為保險
       
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/pwd_error.jpg" height='400' weight='600'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/pwd_error.jpg" height='400' weight='800'>
 
 修正問題：
      
@@ -38,6 +38,6 @@
       2.使用foreach取代if搜尋$row陣列，原本的$row=>$
       2.if的判斷式改為$pwd==$user_password
 
-<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/pwd_correct.jpg" height='400' weight='600'>
+<img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/pwd_correct.jpg" height='400' weight='800'>
 
       
