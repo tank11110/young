@@ -35,7 +35,7 @@
 修正問題：
      
       1.指定抓取['password']欄位並存入row陣列內
-      2.使用foreach取代if搜尋$row陣列，原本的$row=>$
+      2.使用foreach取代if搜尋$row陣列，原本的$row=>$pwd
       2.if的判斷式改為$pwd==$user_password
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/pwd_correct.jpg" height='400' weight='1100'>
