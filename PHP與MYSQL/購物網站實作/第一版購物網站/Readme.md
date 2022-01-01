@@ -94,7 +94,7 @@
      
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/del.jpg" height='200' weight='400'>
 
-    結算：等使用者確認購買的商品之後，將shop_cart資料庫的資料複製到order資料庫
+    結算：等使用者確認購買的商品之後，將shop_cart資料庫的資料複製到user_order資料庫
     
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/finish.jpg" height='200' weight='400'>
 
