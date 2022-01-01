@@ -14,17 +14,19 @@
        1.修正輸入錯誤資料也能登入的問題
        2.修正購物車讀取資料問題(重複讀取/讀取錯誤)
        3.檔案名稱，變數名稱
-            檔案：adding=>adduser.php，sprintf=>adding_user.php。變數：userphone=>_pwd
+            檔案(php)：
+                -adding => adduser
+                -sprintf => adding_user
+            變數：
+                -userphone=>_pwd
        4.網頁之間的連接
        5.使用者登出功能
             檔案：logout.php
-       6.商品上架功能
-            檔案：
 
 -----------------------------------------------------------------------------------------------------
 程式碼：
 
-一.檢查登入(check_login.php)發現問題：
+一.檢查登入(check_login.php)的問題：
 
       1.$output抓取下來的資料是陣列而非密碼(數字)
       2.因密碼設定為"數字"因此判斷式if的$user_password = $row應該要用==來判斷是否相等
@@ -40,4 +42,6 @@
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/pwd_correct.jpg" height='400' weight='1100'>
 
+
+二.購物車(buy)
       
