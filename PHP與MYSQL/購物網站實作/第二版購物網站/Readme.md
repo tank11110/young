@@ -57,7 +57,7 @@
 修正問題：
      
       1.從session讀取使用者名稱，並只讀取名稱相同的購物車資料
-      2.按下"結算購物車"，只把相同使用者名稱的資料傳送到資料庫(user_order)
+      2.按下"結算購物車"，只把相同使用者名稱的資料複製到資料庫(user_order)
       3.按下"結算購物車"，只把相同使用者名稱的資料從資料庫(shop_cart)刪除
       
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/buy_correct.jpg" height='400' weight='700'>
