@@ -59,13 +59,7 @@ print(lr.intercept_)  #印出截距
 print(r_squared_std) #score
 
 
-# In[ ]:
 
-
-
-
-
-# In[ ]:
 
 
 
