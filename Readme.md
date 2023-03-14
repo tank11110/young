@@ -18,3 +18,5 @@
 
 使用軟體：XAMPP(Apache+SQL)/sublime
 
+使用平台：Google Analytics(GA)
+
