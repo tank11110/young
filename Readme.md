@@ -12,7 +12,7 @@
 
 使用語言：Python
 
-使用軟體：Anaconda Navigator
+使用軟體：Anaconda Navigator/colab
 
 使用語言：PHP/MySQL
 
