@@ -27,3 +27,7 @@
 <img src="https://github.com/tank11110/young/blob/master/%E8%A6%96%E8%A6%BA%E5%8C%96/%E5%9C%96%E7%89%87/%E6%A8%93%E5%B1%A4.jpg" height="600" width="1000">
 
 	此圖表示各樓層的商家類別分佈和數量。右邊則是可以選取不同樓層的篩選器。
+
+<img src="https://github.com/tank11110/young/blob/master/%E8%A6%96%E8%A6%BA%E5%8C%96/%E5%9C%96%E7%89%87/%E6%A8%93%E5%B1%A4.jpg" height="600" width="1000">
+
+ 圖中的比例則是全部商家的類別比例。從圖中可以看到綠色(國際珠寶腕錶)的比例和黃色(國際精品)的比例是最高的。圖中可以得知101和國際精品合作的同時，有特別和珠寶腕錶類別的商店合作
