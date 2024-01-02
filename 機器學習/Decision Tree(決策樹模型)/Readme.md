@@ -2,7 +2,7 @@
 ----------------------------------------------------------------------------------
 <img src="https://github.com/tank11110/young/blob/master/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/%E5%9C%96%E7%89%87/DS_tree1.jpg" height="200" width="800">
 
-<img src="https://github.com/tank11110/young/blob/master/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/%E5%9C%96%E7%89%87/DS_tree2.jpg" height="600" width="300">
+<img src="https://github.com/tank11110/young/blob/master/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/%E5%9C%96%E7%89%87/DS_tree2.jpg" height="600" width="400">
 
 <img src="https://github.com/tank11110/young/blob/master/%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92/%E5%9C%96%E7%89%87/DS_tree3.jpg" height="600" width="1000">
 
