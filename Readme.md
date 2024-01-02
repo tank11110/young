@@ -13,17 +13,17 @@
 使用語言：Python
 --------------------------------------------
 
-使用軟體：Anaconda Navigator/colab
+軟體：Anaconda Navigator/colab
 
 使用語言：PHP/MySQL
 --------------------------------------------
 
-使用軟體：XAMPP(Apache+SQL)/sublime
+軟體：XAMPP(Apache+SQL)/sublime
 
 使用語言：linux
 -------------------------------------------
 
-使用軟體：ubuntu
+軟體：ubuntu
 
 使用網頁：Google Analytics(GA)
 -------------------------------------------
