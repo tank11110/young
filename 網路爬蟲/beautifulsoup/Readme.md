@@ -1,7 +1,7 @@
 題目：抓取 https://tw.beanfun.com/maplestory/maple_faq.asp 網站的Q(問題)
 ---------------------------------------------------------------------------------------------------------
 事前準備：安裝beautifulsoup套件
-     
+-------------------------------------------   
    在cmd內的python工作目錄底下輸入：
       
       python -m pip install requests
@@ -15,7 +15,8 @@
      
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1591855162774.jpg" height='130' weight='70'>
 
-接著開始網站爬取
+網站爬取實作
+--------------------------------------------------------------
 
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1592141155593.jpg" height='300' weight='200'>
 
@@ -36,8 +37,6 @@ beautifulsoup內建的編碼是使用utf-8，所以出現亂碼是正常的。
 
 爬取的對象分別是span.maple02跟td.maple02
 
-結果：
-
+爬取成果：
+-------------------------------------------------------------------------------------------------------------------------
 <img src="https://github.com/tank11110/young/blob/master/%E5%9C%96%E7%89%87/1592141446811.jpg" height='500' weight='350'>
-
-爬取結束
