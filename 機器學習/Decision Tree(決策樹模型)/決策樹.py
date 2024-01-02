@@ -9,7 +9,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-# In[3]:
+# In[2]:
 
 
 names=['age','work-class','fnlwgt','education','educatio-num','marital-status',
@@ -22,13 +22,13 @@ data.describe()
 df.head()
 
 
-# In[10]:
+# In[3]:
 
 
 pip install -U scikit-learn scipy matplotlib
 
 
-# In[17]:
+# In[4]:
 
 
 from sklearn import tree
@@ -40,19 +40,11 @@ tree=tree.DecisionTreeClassifier(criterion='gini',random_state=1,max_depth=5)
 tree=tree.fit(X,y)
 
 
-# In[19]:
+# In[5]:
 
 
 tree.score(X,y)
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
