@@ -40,6 +40,8 @@
 
 <img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/U_shopcar1.jpg" height="500" width="900">
 
+        購物車會計算商品的總金額
+        購物車內商品數量預設為1
 
 五. 購物車商品調整
 -----------------------------------------------
