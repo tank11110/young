@@ -50,7 +50,14 @@
 五. 購物車商品調整
 -----------------------------------------------
 
-        以調整雞塊數量、更換漢堡為卡拉雞腿堡為例
+        以購買2份雞塊、更換漢堡為卡拉雞腿堡為例
+
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/U_shopcar3.jpg" height="350" width="900">
+
+        先"修改商品"來調整商品數量，接著刪除豬排漢堡，最後回到商店購買卡拉雞腿堡
+
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/U_shopcar4.jpg" height="350" width="900">
+
 
 六. 訂單生成
 -----------------------------------------------
