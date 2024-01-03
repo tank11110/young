@@ -61,7 +61,22 @@
 <img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop6.jpg" height="500" width="900">
 
 資料庫數據顯示
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop7.jpg" height="350" width="900">
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop7.jpg" height="800" width="900">
+
+商品下架
+------------------------------------------------
+
+        從調整商品頁面下架商品，對想下架的商品點選"刪除"
+
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop8.jpg" height="400" width="900">
+
+        模擬店家下架新商品：雞塊
+
+商品主畫面刪除"雞塊"
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop9.jpg" height="500" width="900">
+
+資料庫數據顯示
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop10.jpg" height="800" width="900">
 
 五. 訂單處理
 -----------------------------------------------
@@ -77,4 +92,4 @@
         確認商品沒問題就可以"結算購物車"
 
 資料庫數據顯示
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shopcar5.jpg" height="2000" width="900">
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shopcar5.jpg" height="200" width="800">
