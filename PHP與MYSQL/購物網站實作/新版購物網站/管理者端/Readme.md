@@ -51,17 +51,17 @@
 商品上架
 ------------------------------------------------
 
+        上架商品頁面，需填寫商品類別、名稱、價格、數量
 
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop5.jpg" height="500" width="900">
 
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop2.jpg" height="500" width="900">
+        模擬店家上架新商品：雞米花(類別：炸物、價錢：35、數量：100)
 
-
-
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop3.jpg" height="500" width="900">
-
+商品主畫面新增"雞米花"
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop6.jpg" height="500" width="900">
 
 資料庫數據顯示
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop4.jpg" height="350" width="900">
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop7.jpg" height="350" width="900">
 
 五. 訂單處理
 -----------------------------------------------
