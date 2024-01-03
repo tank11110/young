@@ -12,7 +12,7 @@
     $userphone=$_SESSION['user_phone'];
 ?>
 <br>
-<a style="font-size: 150%;color: red" >當前使用者：
+<div style="margin-left: 250px;font-size: 150%;color: red" >當前使用者：
 <?php
     if(isset($_SESSION['user_name']))
     {
@@ -20,12 +20,13 @@
     }
     else
     {
-        echo "<script>alert('尚未登入！  請先登入再使用本功能')</script>";
-        Header("Refresh:0;admin_login.php ");
+        echo "<script>alert('尚未登入！  請先登入再使用本商店')</script>";
+        Header("Refresh:0;user_login.php ");
         die;
     }
 ?>
-<a href="admin_logout.php">(登出)</a><br>
+<a href="user_logout.php">(登出)</a>
+</div><br>
 <?php
 //隱藏 '測試1' 按鈕.
 $hide = false;
