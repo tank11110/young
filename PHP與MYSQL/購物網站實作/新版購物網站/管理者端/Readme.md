@@ -32,18 +32,36 @@
 
 四. 商品調整(上架、下架、數量)
 -----------------------------------------------
-調整商品
+商品數量調整
+------------------------------------------------
 
-        以購買豬排漢堡、雞塊、奶茶為例
+        調整商品可以調整 1.類別、2.名稱、3.價格、4.數量
+        採用一樣一列商品調整的方式，調整完畢之後按下送出
 
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shopcar1.jpg" height="500" width="900">
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop2.jpg" height="500" width="900">
 
-        購物車會計算商品的總金額
-        購物車內商品數量預設為1
+        模擬店家補貨的情形，因此將所有商品數量調回100
+
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop3.jpg" height="500" width="900">
+
 
 資料庫數據顯示
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shopcar2.jpg" height="350" width="900">
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop4.jpg" height="350" width="900">
 
+商品上架
+------------------------------------------------
+
+
+
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop2.jpg" height="500" width="900">
+
+
+
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop3.jpg" height="500" width="900">
+
+
+資料庫數據顯示
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shop4.jpg" height="350" width="900">
 
 五. 訂單處理
 -----------------------------------------------
