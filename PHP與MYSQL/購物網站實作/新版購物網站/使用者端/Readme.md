@@ -65,3 +65,11 @@
 
 六. 訂單生成
 -----------------------------------------------
+
+    系統會先提醒使用者餐點處理狀況
+
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/U_buy1.jpg" height="150" width="600">
+
+    顯示目前的訂單處理狀況
+
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/U_buy2.jpg" height="500" width="900">
