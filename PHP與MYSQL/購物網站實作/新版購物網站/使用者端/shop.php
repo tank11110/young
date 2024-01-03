@@ -25,7 +25,8 @@
     }
 ?>
 <a href="user_logout.php">(登出)</a>
-</div><br>
+</div>
+<br>
 <br>
 <div style="width:50%;margin:0 auto;background-color:#eee;text-align:center;padding:2% 5%">
 <a style="font-size: 200%;color: blue;text-align: center">早餐店</a><br>
