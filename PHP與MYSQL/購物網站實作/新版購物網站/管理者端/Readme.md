@@ -81,15 +81,10 @@
 五. 訂單處理
 -----------------------------------------------
 
-        以購買2份雞塊、更換漢堡為卡拉雞腿堡為例
+        訂單頁面會顯示需要處理的商品
 
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shopcar3.jpg" height="450" width="900">
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_buy1.jpg" height="450" width="900">
 
-        先"修改商品"來調整商品數量，接著刪除豬排漢堡，最後回到商店購買卡拉雞腿堡
-
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shopcar4.jpg" height="450" width="900">
-
-        確認商品沒問題就可以"結算購物車"
 
 資料庫數據顯示
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_shopcar5.jpg" height="200" width="800">
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_buy2.jpg" height="200" width="800">
