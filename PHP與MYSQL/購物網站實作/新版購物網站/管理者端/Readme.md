@@ -18,7 +18,7 @@
 
         已經預設一組管理者帳號，不用再註冊
 
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_login2.jpg" height="250" width="700">
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/A_login2.jpg" height="150" width="700">
 
 三. 管理者主畫面
 -----------------------------------------------
