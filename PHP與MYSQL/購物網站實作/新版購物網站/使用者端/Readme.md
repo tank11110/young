@@ -13,7 +13,15 @@
 
 二. 帳號註冊及登入
 -----------------------------------------------
+登入主畫面
 
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/login.jpg" height="250" width="600">
+註冊帳號
+
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/login2.jpg" height="250" width="900">
+登入提醒
+
+<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/login3.jpg" height="150" width="900">
 
 三. 商店主畫面
 -----------------------------------------------
