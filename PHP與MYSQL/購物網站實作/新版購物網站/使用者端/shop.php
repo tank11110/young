@@ -11,7 +11,7 @@
     session_start();
 ?>
 <br>
-<a style="font-size: 150%;color: red" >當前使用者：
+<div style="margin-left: 250px;font-size: 150%;color: red" >當前使用者：
 <?php
     if(isset($_SESSION['user_name']))
     {
@@ -24,7 +24,8 @@
         die;
     }
 ?>
-<a href="user_logout.php">(登出)</a><br>
+<a href="user_logout.php">(登出)</a>
+</div><br>
 <br>
 <div style="width:50%;margin:0 auto;background-color:#eee;text-align:center;padding:2% 5%">
 <a style="font-size: 200%;color: blue;text-align: center">早餐店</a><br>
