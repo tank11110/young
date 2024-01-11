@@ -27,7 +27,7 @@ df.head()
 pip install -U scikit-learn scipy matplotlib
 
 
-# In[42]:
+# In[4]:
 
 
 from sklearn import tree
@@ -50,7 +50,7 @@ DS_tree.score(X,y)
 pip install graphviz
 
 
-# In[41]:
+# In[7]:
 
 
 import graphviz
@@ -62,7 +62,6 @@ graph=graphviz.Source(dot_data)
 graph
 
 
-# In[ ]:
 
 
 
