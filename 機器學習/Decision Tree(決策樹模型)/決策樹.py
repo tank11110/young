@@ -32,6 +32,8 @@ pip install -U scikit-learn scipy matplotlib
 
 from sklearn import tree
 data_dummies=pd.get_dummies(df,drop_first=True) #dummies把類別轉成數值
+names=data_dummies.columns.tolist() #取得欄位值
+names.pop()
 X=data_dummies.iloc[:,:-1].values
 y=data_dummies.iloc[:,-1].values
 DS_tree=tree.DecisionTreeClassifier(criterion='gini',random_state=1,max_depth=5)
@@ -56,7 +58,7 @@ pip install graphviz
 import graphviz
 feature_names = data_dummies.columns.tolist()
 dot_data = tree.export_graphviz(DS_tree,
-                                feature_names=len1,class_names=['income_ >50K','income_ <=50K'],
+                                feature_names=names,class_names=['income_ >50K','income_ <=50K'],
                                 out_file=None,filled=True,rounded=True)
 graph=graphviz.Source(dot_data)
 graph
