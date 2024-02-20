@@ -6,7 +6,7 @@
 
 信箱：young94104@yahoo.com.tw
 
-Side Project：https://github.com"https://github.com/tank11110/young/blob/master/Side%20Project/Readme.md
+Side Project：https://github.com/tank11110/young/tree/master/Side%20Project
 
 使用語言：Python
 --------------------------------------------
