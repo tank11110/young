@@ -9,8 +9,9 @@
 
 ver1：自動爬取文章標題與內容、QA系統
 -------------------------------------
-skip_title避免爬取到3種不需要的文章
-<img src="https://github.com/tank11110/young/blob/master/PHP%E8%88%87MYSQL/%E5%9C%96%E7%89%87/MySQL_U1.jpg" height="450" width="400">
+避免selenium爬取到3種不需要的文章
+
+<img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/QA1.jpg" height="200" width="500">
 
 
 
