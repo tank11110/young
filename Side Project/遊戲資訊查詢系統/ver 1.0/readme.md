@@ -1,3 +1,3 @@
 說明：
 ------------------------
-QAlist.csv是QA_selenium_ver1.py於2024/2/19產生的檔案，參考用
+QAlist.csv是QA_selenium_ver1.py於2024/2/19產生的檔案。為參考用檔案
