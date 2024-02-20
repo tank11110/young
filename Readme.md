@@ -1,4 +1,4 @@
-張定洋的作品集
+個人資料：
 ------------------------------------------------------
 姓名：張定洋
 
@@ -6,7 +6,9 @@
 
 信箱：young94104@yahoo.com.tw
 
-Side Project：https://github.com/tank11110/young/tree/master/Side%20Project
+Side Project
+-----------------------------------------------------
+https://github.com/tank11110/young/tree/master/Side%20Project
 
 使用語言：Python
 --------------------------------------------
