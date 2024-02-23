@@ -1,5 +1,8 @@
 說明：
 ------------------------------------------------------
+[資料來源](https://www.kaggle.com/datasets/iabhishekofficial/mobile-price-classification "題目連結")
+
+
 MPC_project.py 為模型檔案
 
 train.csv 為數據及提供的訓練資料
