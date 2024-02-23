@@ -47,7 +47,7 @@ test.csv 為數據及提供的測試資料
 
 (一) 最佳參數
 
-<img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC4.jpg" height="50" width="800">
+<img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC4.jpg" height="50" width="900">
 
       使用 GridSearchCV 找出最佳參數設定，並套用至決策樹模型
 
@@ -57,23 +57,23 @@ test.csv 為數據及提供的測試資料
 
 (三) 特徵分數
 
-      1. ram: 0.7157
-      2. battery_power: 0.1034
-      3. px_width: 0.0791
-      4. px_height: 0.0705
-      5. sc_w: 0.0072
-      6. clock_speed: 0.0056
-      7. mobile_wt: 0.0048
-      8. n_cores: 0.0044
-      9. pc: 0.0033
-      10. sc_h: 0.0030
-      11. talk_time: 0.0013
-      12. dual_sim: 0.0009
-      13. int_memory: 0.0005
-      14. fc: 0.0002
-      15. m_dep: 0.0002
-      16. blue: 0.0000
-      17. four_g: 0.0000
+      1. ram: 0.7136
+      2. battery_power: 0.1039
+      3. px_width: 0.0781
+      4. px_height: 0.0710
+      5. mobile_wt: 0.0069
+      6. sc_w: 0.0066
+      7. clock_speed: 0.0056
+      8. pc: 0.0033
+      9. talk_time: 0.0031
+      10. n_cores: 0.0030
+      11. sc_h: 0.0025
+      12. m_dep: 0.0020
+      13. fc: 0.0003
+      14. dual_sim: 0.0002
+      15. blue: 0.0000
+      16. four_g: 0.0000
+      17. int_memory: 0.0000
       18. three_g: 0.0000
       19. touch_screen: 0.0000
       20. wifi: 0.0000
