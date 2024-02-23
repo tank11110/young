@@ -33,11 +33,14 @@
 
 <img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC2.jpg" height="350" width="800">
 
-(一). 結果
+(一). 最佳參數
+
+
+(二). 結果
 
       模型分數：0.83875
 
-(二). 重要特徵：
+(三). 重要特徵：
 
       1. ram: 0.8496
       2. battery_power: 0.0908
