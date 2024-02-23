@@ -13,6 +13,8 @@
 
 五. 結論
 
+六. 資料清洗驗證
+
 一. 資料展示
 -----------------------------------------------------------------
 <img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC1.jpg" height="400" width="700">
