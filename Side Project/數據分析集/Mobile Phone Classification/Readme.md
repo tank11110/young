@@ -2,20 +2,20 @@
 -------------------------------------------------------------------
 一. 資料展示
 
-二. 模型訓練與結果 (決策樹)
+二. 模型訓練結果 (決策樹)
 
-      (零). 一般決策樹
-      (一). 最佳參數
-      (二). 模型分數
-      (三). 重要特徵
+      (一) 最佳參數
+      (二) 模型分數
+      (三) 特徵分數
+      (四) 測試資料回測結果
 
 三. 驗證及優化
 
-      (一). 均方誤差
-      (二). Overfitting
-      (三). 混淆矩陣
+      (一) 均方誤差
+      (二) Overfitting
+      (三) 混淆矩陣
       
-四. 預測結果及驗證
+四. 預測資料
 
 五. 結論
 
@@ -28,25 +28,78 @@
       
       總共2000筆資料、21筆欄位
 
-二. 模型訓練與結果 (決策樹)
+二. 模型訓練結果 (決策樹)
 -----------------------------------------------------------------
 模型部分圖形如下：
 
-<img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC2.jpg" height="350" width="800">
+<img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC3.jpg" height="200" width="700">
 
-(一). 最佳參數
+(一) 最佳參數
 
+<img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC4.jpg" height="50" width="800">
 
-(二). 結果
+      使用 GridSearchCV 找出最佳參數設定，並套用至決策樹模型
 
-      模型分數：0.83875
+(二) 模型分數
 
-(三). 重要特徵：
+      模型分數：0.94125
 
-      1. ram: 0.8496
-      2. battery_power: 0.0908
-      3. px_height: 0.0532
-      4. px_width: 0.0065
+(三) 特徵分數
+
+      1. ram: 0.7157
+      2. battery_power: 0.1034
+      3. px_width: 0.0791
+      4. px_height: 0.0705
+      5. sc_w: 0.0072
+      6. clock_speed: 0.0056
+      7. mobile_wt: 0.0048
+      8. n_cores: 0.0044
+      9. pc: 0.0033
+      10. sc_h: 0.0030
+      11. talk_time: 0.0013
+      12. dual_sim: 0.0009
+      13. int_memory: 0.0005
+      14. fc: 0.0002
+      15. m_dep: 0.0002
+      16. blue: 0.0000
+      17. four_g: 0.0000
+      18. three_g: 0.0000
+      19. touch_screen: 0.0000
+      20. wifi: 0.0000
+
+(四) 測試資料回測結果
+
+<img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC8.jpg" height="450" width="150">
+
+      總共400筆資料中，模型預測成功341筆資料，預測準確率0.8525
 
 三. 驗證及優化
 ------------------------------------
+
+(一) 均方誤差
+
+      此模型均方誤差為0.3840
+
+(二) Overfitting
+
+<img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC5.jpg" height="300" width="400">
+
+      從圖形判斷並不會因為決策樹深度提高而降低預測準確率，因此不用擔心過擬合的問題
+      同時也驗證了 GridSearchCV 的參數設定
+
+(三) 混淆矩陣
+
+<img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC6.jpg" height="400" width="450">
+
+<img src="https://github.com/tank11110/young/blob/master/Side%20Project/%E5%9C%96%E7%89%87%E9%9B%86/MPC7.jpg" height="300" width="450">
+
+      透過混淆矩陣進一步驗證模型的準確度及各項參數值
+
+四. 預測資料
+-----------------------------------------------
+
+五. 結論
+-----------------------------------------------
+
+六. 資料清洗驗證
+-----------------------------------------------
