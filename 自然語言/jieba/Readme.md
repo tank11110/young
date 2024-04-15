@@ -9,6 +9,8 @@ jieba_06170135.py
 在cmd內的python工作目錄底下輸入：
 
     python -m pip install jieba
+    或著直接在python內安裝
+    執行pip install jieba
     
 分詞套件實作：
 ------------------------------------------------------------------
