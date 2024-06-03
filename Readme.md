@@ -10,20 +10,10 @@ Side Project
 -----------------------------------------------------
 [Side Project連結](https://github.com/tank11110/young/tree/master/Side%20Project "github連結")
 
-使用語言：Python
+個人技能
 --------------------------------------------
-
-軟體：Anaconda Navigator/colab
-
-使用語言：PHP/MySQL
---------------------------------------------
-
-軟體：XAMPP(Apache+SQL)/sublime
-
-使用語言：linux
--------------------------------------------
-
-軟體：ubuntu
-
-使用網頁：Google Analytics(GA)
--------------------------------------------
+1. 以Python語言為主
+2. 機器學習技能 (scikit-learn)
+3. 資料視覺化工具 (Tableau)
+4. 後端框架 (flask)
+5. 上雲 (Azure、GCP)
