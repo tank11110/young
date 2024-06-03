@@ -10,10 +10,15 @@ Side Project
 -----------------------------------------------------
 [Side Project連結](https://github.com/tank11110/young/tree/master/Side%20Project "github連結")
 
-個人技能
+個人技能：
+以Python語言、數據分析師為主
+同時也具備前端、後端、CICD、上雲相關技能
 --------------------------------------------
-1. 以Python語言為主
-2. 機器學習技能 (scikit-learn)
-3. 資料視覺化工具 (Tableau)
-4. 後端框架 (flask)
-5. 上雲 (Azure、GCP)
+1. 程式語言：Python
+2. 機器學習技能：scikit-learn
+3. 資料視覺化工具：Tableau
+4. 後端框架：Flask
+5. 資料庫：SQL、MongoDB
+6. 上雲平台：Azure、GCP
+7. 版本控制能力：Github
+8. 基礎CI/CD能力：Github Actions
