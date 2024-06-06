@@ -8,7 +8,11 @@
 
 Side Project
 -----------------------------------------------------
-[Side Project連結](https://github.com/tank11110/young/tree/master/Side%20Project "github連結")
+網站全端+各項功能開發(GA、數據分析)
+[CollectSystem](https://github.com/tank11110/young/tree/master/Side%20Project/CollectSystem "github連結")
+
+數據分析相關
+[數據分析類](https://github.com/tank11110/young/tree/master/Side%20Project "github連結")
 
 個人技能：
 以Python語言、數據分析師為主
