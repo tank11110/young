@@ -10,7 +10,11 @@ GCP(暫不更新)：https://precise-ether-424913-m9.de.r.appspot.com/
 [目前版本]
 -----------------------------------------------
 使用技術：
+
 前端：Html/Css/JavaScript
+
 後端：Flask
+
 CI/CD：Github Action
+
 雲服務：Azure(主要更新)、GCP(備份)
