@@ -8,7 +8,7 @@
 
 ---
 
-## 目前版本：0.3.2  
+## 版本：
 ### [版本更新紀錄](https://github.com/tank11110/young/tree/master/Side%20Project/CollectSystem/%E7%89%88%E6%9C%AC%E7%B4%80%E9%8C%84)
 
 ---
