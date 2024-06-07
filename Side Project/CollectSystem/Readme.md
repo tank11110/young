@@ -1,13 +1,13 @@
 # CollectSystem(書本收藏系統)
 
 
----
-## 運行版本：Azure
-連結：  
-[Azure(主要運行版本)](https://mycollect.azurewebsites.net/)  
+---  
+## 連結：  
+### [Azure(主要運行版本)](https://mycollect.azurewebsites.net/)  
 [GCP(舊版)](https://precise-ether-424913-m9.de.r.appspot.com/)  
 
 ---
+
 ## 目前版本：0.3.2  
 [版本更新紀錄](https://github.com/tank11110/young/tree/master/Side%20Project/CollectSystem/%E7%89%88%E6%9C%AC%E7%B4%80%E9%8C%84)
 
@@ -23,4 +23,4 @@
 後端：Flask  
 資料庫：MongoDB Atlas  
 CI/CD：Github Action  
-雲服務：Azure(主要更新)、GCP(備份)
+雲服務：Azure(主要運行版本)、GCP(舊版)
