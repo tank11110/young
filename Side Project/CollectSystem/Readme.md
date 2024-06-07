@@ -1,15 +1,24 @@
-CollectSystem(書本收藏系統)
-==================================================
+# CollectSystem(書本收藏系統)
+
+
+---
+## 運行版本：Azure
 連結：
-==================================================
-Azure(主要)：https://mycollect.azurewebsites.net/
-GCP(暫不更新)：https://precise-ether-424913-m9.de.r.appspot.com/
-----------------------------------------------
-使用上請以Azure版本為主
+[Azure(主要運行版本)](https://mycollect.azurewebsites.net/)  
+[GCP(舊版)](https://precise-ether-424913-m9.de.r.appspot.com/)  
+
+---
+## 目前版本
+
+[版本更新紀錄]
+
+---
+
+## 說明文件
 [使用說明文件]
-[目前版本]
+
 -----------------------------------------------
-使用技術：
+## 使用技術：
 
 前端：Html/Css/JavaScript
 
