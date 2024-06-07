@@ -20,10 +20,8 @@
 -----------------------------------------------
 ## 使用技術：
 
-前端：Html/Css/JavaScript
-
-後端：Flask
-
-CI/CD：Github Action
-
+前端：Html/Css/JavaScript  
+後端：Flask  
+資料庫：MongoDB Atlas  
+CI/CD：Github Action  
 雲服務：Azure(主要更新)、GCP(備份)
