@@ -3,7 +3,7 @@
 
 ---
 ## 運行版本：Azure
-連結：
+連結：  
 [Azure(主要運行版本)](https://mycollect.azurewebsites.net/)  
 [GCP(舊版)](https://precise-ether-424913-m9.de.r.appspot.com/)  
 
