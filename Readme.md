@@ -20,7 +20,8 @@
 技能樹：  
 1. 程式語言：Python  
 2. 機器學習：Scikit-Learn  
-3. 資料視覺化工具：Tableau、Power BI  
+3. 資料視覺化工具：Tableau、Power BI
+4. 前端框架：Vue3
 5. 後端框架：Flask  
 6. 資料庫：MySQL、MongoDB  
 7. 雲平台：Azure、GCP  
