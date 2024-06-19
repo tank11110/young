@@ -19,7 +19,7 @@
 -----------------------------------------------
 
 ## 使用技術：  
-前端：Html/Css/JavaScript  
+前端：vue3  
 後端：Flask  
 資料庫：MongoDB Atlas  
 CI/CD：Github Action  
