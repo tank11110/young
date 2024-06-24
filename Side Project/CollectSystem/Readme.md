@@ -3,8 +3,7 @@
 
 ---  
 ## 連結：  
-### [Azure(主要運行版本)](https://mycollect.azurewebsites.net/)  
-[GCP(舊版)](https://precise-ether-424913-m9.de.r.appspot.com/)  
+### [Azure(運行版本)](https://mycollect.azurewebsites.net/)  
 
 ---
 
@@ -23,4 +22,4 @@
 後端：Flask  
 資料庫：MongoDB Atlas  
 CI/CD：Github Action  
-雲服務：Azure(主要運行版本)、GCP(舊版)
+雲服務：Azure(運行版本)
