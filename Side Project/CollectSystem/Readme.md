@@ -1,11 +1,10 @@
 # CollectSystem(收藏系統)
 
-## 測試帳號：test
-## 測試密碼：123
-
 ---  
 ## 連結：  
 ### [Azure(運行版本)](https://mycollect.azurewebsites.net/)  
+#### 測試帳號：test
+#### 測試密碼：123
 
 ---
 
